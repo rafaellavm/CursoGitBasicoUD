@@ -13,6 +13,10 @@ Se nesse status eu voltar a editar o mesmo arquivo então será necessário digi
 
 git add 'arquivo'
 
+Exemplo:
+
+git add "arquivo.txt"
+
 Caso queira colocar todos os arquivos:
 
 git add .
@@ -23,5 +27,5 @@ O 'commit' é o momento que vou avisar ao git: "pegue todos os arquivos do meu r
 
 É necessário adicionar o arquivo para podermos 'commitar':
 
-git add 'arquivo'
+git add "arquivo.txt"
 
