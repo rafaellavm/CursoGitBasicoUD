@@ -29,3 +29,33 @@ O 'commit' é o momento que vou avisar ao git: "pegue todos os arquivos do meu r
 
 git add "arquivo.txt"
 
+<h2>4) git log</h2>
+
+Mostra o código(hash) do commit, autor e data do commit.
+
+git log --decorate
+
+mostra qual branch pra qual branch.
+
+git log --author="Rafaela"
+
+mostra os commits por autor.
+
+git shortlog
+
+mostra em ordem alfabética os autores, quantos commits fizeram e quais eles foram.
+
+git shortlog -sn
+
+mostra a quantidade de commits por autor.
+
+git log --graph
+
+mostra em forma gráfica o que está acontecendo com os branchs e suas versões.
+
+git show 158459ee6cdbd200100fa2feb07fc635b173f5f9
+
+mostra as informações do commit pelo código(hash)
+
+
+
