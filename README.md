@@ -66,7 +66,7 @@ o que está em vermelho é o conteúdo antes da atualização, em verde é depoi
 
 `$ git diff --name-only`
 
-2. Consegue ver a lista do que foi modificado sem o conteúdo sendo mostrado.
+2. Consegue ver a lista dos arquivos modificados sem o conteúdo sendo mostrado.
 
 
 
