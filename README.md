@@ -57,5 +57,18 @@ O 'commit' é o momento que vou avisar ao git: "pegue todos os arquivos do meu r
 
 6. mostra as informações do commit pelo código(hash), mostrando quais arquivos foram modificados e suas alterações.
 
+## 5) git diff ##
+
+`$ git diff`
+
+1. Mostra a modificação que foi feita no arquivo
+o que está em vermelho é o conteúdo antes da atualização, em verde é depois da atualização.
+
+`$ git diff --name-only`
+
+2. Consegue ver a lista do que foi modificado sem o conteúdo sendo mostrado.
+
+
+
 
 
